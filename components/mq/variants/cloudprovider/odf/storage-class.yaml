@@ -6,8 +6,8 @@ spec:
   queueManager:
     storage:
       queueManager:
-        class: ocs-external-storagecluster-ceph-rbd
+        class: ocs-storagecluster-ceph-rbd
       persistedData:
-        class: ocs-external-storagecluster-ceph-rbd
+        class: ocs-storagecluster-ceph-rbd
       recoveryLogs:
-        class: ocs-external-storagecluster-ceph-rbd
+        class: ocs-storagecluster-ceph-rbd
