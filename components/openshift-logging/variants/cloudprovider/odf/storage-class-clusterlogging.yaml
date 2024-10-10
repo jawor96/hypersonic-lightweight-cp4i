@@ -7,5 +7,5 @@ spec:
   logStore:
     elasticsearch:
       storage:
-        storageClassName: ocs-storagecluster-ceph-rbd
+        storageClassName: ocs-external-storagecluster-ceph-rbd
    
